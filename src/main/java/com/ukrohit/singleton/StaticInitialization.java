@@ -14,7 +14,7 @@ public class StaticInitialization {
 	}
 
 	// object initialization in station block we can also handle the exception in
-	// static block
+	// static block 
 	static {
 		try {
 			if (INSTANCE == null) {

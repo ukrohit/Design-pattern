@@ -19,11 +19,12 @@ public class LazyInitialization {
 
 	// only one globle access point to get the instance of class
 	// this is also known as utility method can access with the help of class name
-	public static LazyInitialization getInstance() {
+	public static synchronized LazyInitialization getInstance() {
 		// onject initializa when first time use the static method this is the best
 		// approach to create use the singleton class
 		try {
 			if (INSTANCE == null) {
+				Thread.sleep(200);
 				INSTANCE = new LazyInitialization();
 			}
 		} catch (Exception e) {
