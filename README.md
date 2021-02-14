@@ -3,7 +3,24 @@
 Design pattern 
 
 <ul>Creational
-	<ol>Singleton Design Pattern </ol>
+	<ol>Singleton Design Pattern: Ensure that only one instance of class exis in JVM.
+	<br>
+	Make sure that only singleton class must provide global access point to access the instance of singleton class <br>
+	<ul> not thread safe
+	<ol>Eager initialization </ol>
+		<ol>Static block initialization  </ol>
+		<ol>lazy initialization </ol>
+		</ul>
+		<ul> Thread safe
+			<ol>Thread safe singleton </ol>
+			<ol>bill pugh singleton pattern  </ol>
+			<ol>Using reflaction to destroy singleton  </ol>
+			<ol>ENUM singleton  </ol>
+			<ol>Using clone to destroy/ prevent singleton  </ol>
+			<ol>Using serialization to destroy/prevent singleton  </ol>
+			<ol>Example of singleton in jdk   </ol>		
+		</ul>	
+	 </ol>
 	<ol>Factory Design Pattern </ol>
 	<ol>Abstract factory Design Pattern </ol>
 	<ol>Builder Design Pattern </ol>
