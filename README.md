@@ -5,7 +5,8 @@ Design pattern
 <ul>Creational
 	<ol>Singleton Design Pattern: Ensure that only one instance of class exis in JVM.
 	<br>
-	Make sure that only singleton class must provide global access point to access the instance of singleton class <br>
+	Make sure that only singleton class must provide global access point to access the instance of singleton class.
+	<br>
 	<ul> not thread safe
 	<ol>Eager initialization </ol>
 		<ol>Static block initialization  </ol>
@@ -20,6 +21,9 @@ Design pattern
 			<ol>Using serialization to destroy/prevent singleton  </ol>
 			<ol>Example of singleton in jdk   </ol>		
 		</ul>	
+		IN java there are Runtime,System and Desktop classes are singleton class 
+		Logger and caching is also the example of the desing pattern, pulling 
+		
 	 </ol>
 	<ol>Factory Design Pattern </ol>
 	<ol>Abstract factory Design Pattern </ol>
