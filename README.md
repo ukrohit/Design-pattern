@@ -25,7 +25,12 @@ Design pattern
 		Logger and caching is also the example of the desing pattern, pulling 
 		
 	 </ol>
-	<ol>Factory Design Pattern </ol>
+	<ol>Factory Design Pattern
+	<ul>when we have super class with multiple subclass and based on the input we return the instance of subclass 
+	<ol>Factory Design Pattern</ol>
+	</ul>
+	
+	 </ol>
 	<ol>Abstract factory Design Pattern </ol>
 	<ol>Builder Design Pattern </ol>
 	<ol>Prototype Design Pattern</ol> 
